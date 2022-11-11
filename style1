@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; 
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgba(231, 167, 211, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.image
+{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.logo
+{
+    font: 18px;
+    letter-spacing: 2px;
+    color: white;
+    font-family:cursive;
+}
+
+.nav-menu li
+{
+    display: inline-block;
+    padding: 10px 20px;  
+}
+
+.nav-menu li a
+{
+    color: white;
+    transition: 0.6;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.nav-menu li a:hover
+{
+    color: rgb(234, 227, 227);
+}
+
+.main-head
+{
+    
+    height: 100vh;
+    width: 100% ;
+    background-size: 100% ;
+    background-position: center;
+    background-color: white;
+    background-blend-mode: darken ;
+    background-repeat: no-repeat;
+}
+
+.banner-text
+{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    color: snow;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+.banner-text h1
+{
+    font-size: 66px;
+}
+
+.banner-text h2
+{
+    font-size: 40px;
+}
+.btn1
+{
+    top: 10%;
+    left: 45%;
+    position:absolute;
+    color: rgb(230, 71, 169);
+    line-height: 1.8;
+}
+.btn1 button
+{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    color: rgb(241, 26, 173);
+    font-size: 17px;
+    border: 1px solid rgb(218, 21, 123);
+    transition: 0.5s;
+    font-family: cursive;
+}
+.btn1 button:hover
+{
+    background: rgba(249, 248, 249, 0.9);
+    transform: scale(1.1);
+}
+
+.btn
+{
+    top: 65%;
+    left: 65%;
+    position:absolute;
+    color: rgb(230, 71, 169);
+    line-height: 1.8;
+}
+
+.btn button
+{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    color: rgb(241, 26, 173);
+    font-size: 17px;
+    border: 1px solid rgb(218, 21, 123);
+    transition: 0.5s;
+    font-style:bold;
+    font-family: cursive;
+}
+
+.btn button:hover
+{
+    background: rgba(250, 248, 250, 0.9);
+    transform: scale(1.1);
+    
+}
+
+.section 
+{
+    display: inline-block;
+    justify-content:left;
+    border: 0 solid;
+    width: 100%;
+    height: 45vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-color:  rgba(231, 167, 211, 0.9);
+    background-blend-mode: darken;
+}
+
+.contact-list li a
+{
+    color: white;
+    transition: 0.6;
+}
+
+.section li a:hover
+{
+    color: black;
+}
+
+.section h2
+{
+    color: white;
+    transition: 0.6;
+}
+
+.contact-list h3
+{
+    color: white;
+    transition: 0.6;
+}
