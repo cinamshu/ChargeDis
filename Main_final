@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ChargeDis</title>
+        <link rel="stylesheet" href="main2style.css">
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <div class="logo">
+                <h1>ChargeDis</h1>
+            </div>
+            <div class="btn1"> 
+                <a href="http://127.0.0.1:5500/front.html">
+                    <button>CLICK HERE TO SCAN</button>
+                </a>
+               
+            </div>
+            <div class="nav-menu"> 
+                <li><a href="video.html">ABOUT US</a></li>
+                
+                
+            </div>
+        </div>
+        <div class="main-head">
+                <div class="image">
+                <img ali src="images/2.png" height="400px" width="430px" alt="logo" >
+                </div>
+                <div class="btn"> 
+                    <a href="http://127.0.0.1:5500/front.html">
+                        <button>CLICK HERE TO SCAN</button>
+                    </a>
+                </div>
+    
+        
+            <div class="banner-text">
+                
+                <h1>“Menstruation is a small price you pay for being blessed with the grandest gift you can ever wish for, and that is, to have the privilege to give birth.”</h1>
+                 
+            </div>
+         </div>
+       
+         <footer class="section footer-classic" style="background: rgba(231, 167, 211, 0.9)">
+                
+                      <h2>HOW TO GO ABOUT</h2><br>
+                      </br>
+                      <dl class="picture">
+                        <img src="images/1.jpeg" width="15%" height="50%">
+                      </dl>
+                      <dl class="picture">
+                        <img src="images/2.jpeg" width="15%" height="50%">
+                      </dl>
+                      <dl class="picture">
+                        <img src="images/3.jpeg" width="15%" height="50%">
+                      </dl>
+                      <dl class="picture">
+                        <img src="images/4.jpeg" width="15%" height="50%">
+                      </dl>
+                      <dl class="picture">
+                        <img src="images/5.jpeg" width="15%" height="50%">
+                      </dl>
+                      <dl class="picture">
+                        <img src="images/6.jpeg" width="15%" height="50%">
+                      </dl>
+
+                        
+                    </div>
+                    
+                     
+                </div>
+              </footer>
+
+        </div>
+    </body>
+</html>
