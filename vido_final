@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="video.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>ChargeDis</h1>
+            </div>
+            <div class="btn1"> 
+                <a href="http://127.0.0.1:5500/front.html">
+                    <button>CLICK HERE TO SCAN</button>
+                </a>
+               
+            </div>
+            <div class="nav-menu"> 
+                <li><a href="main2.html">HOME</a></li>
+                
+                
+            </div>
+        </div>
+        <div class="center">
+            <video width="100%" height="100%" controls>
+                <source src="images/WhatsApp Video 2022-11-12 at 6.35.04 PM.mp4" type="video/mp4">
+            </video>
+        </div>
+    </body>
+</html>
