@@ -18,13 +18,18 @@ while True:
     
     color='Undefined'
     if hue_value <  5:
-        color="RED"
+        color="RED - Normal! You are healthy.."
     elif hue_value < 22:
-        color= "ORANGE"
+        color= '''ORANGE-indicates an infection. CONSULT A DOCTOR SOON!! ''' 
+       
     elif hue_value < 33:
-        color="YELLOW"
+        color= '''YELLOW- sign of an infection, such as an STI.You should see a doctor.'''
+        
     elif hue_value < 167:
-        color="VIOLET"
+        color="VIOLET: high-estrogen-levels! contains blood clots..may lead to fatal issues. " 
+    elif hue_value == 139:
+        color="DARK RED" 
+        
     else:
         color="RED"
     
