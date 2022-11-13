@@ -19,7 +19,8 @@
 .image
 {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 2%;
+    
 }
 
 .logo
@@ -56,9 +57,10 @@
     width: 100% ;
     background-size: 100% ;
     background-position: center;
-    background-color: white;
+    background-image: url(images/bg_1.jpg);
     background-blend-mode: darken ;
     background-repeat: no-repeat;
+    
 }
 
 .banner-text
